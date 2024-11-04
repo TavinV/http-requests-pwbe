@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DELETE</title>
+</head>
+<body>
+    <center>
+    
+        <h3>Delete</h3>
+
+        <label for="identificador">Identificador</label>
+        <input id="identificador" type="text">
+        <br><br>
+        <label for="nome">Nome</label>
+        <input readonly id="nome" type="text">
+        <br><br>
+        <label for="idade">Idade</label>
+        <input readonly id="idade" type="text">
+        <br><br>
+        <error></error>
+        <br><br>
+        <input type="button" onclick="buscarDados()" value="Buscar">
+        <input type="button" onclick="deletarUsuario()" value="Deletar">
+    </center>
+</body>
+<script src="delete.js"></script>
+</html>
